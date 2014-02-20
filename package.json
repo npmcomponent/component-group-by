@@ -1,21 +1,14 @@
 {
-  "name": "group-by",
+  "name": "component-group-by",
+  "description": "Group an array by property value or callback",
   "version": "0.0.1",
-  "description": "Group an array by property values or callback",
+  "keywords": [
+    "array",
+    "group-by",
+    "utility"
+  ],
   "dependencies": {
-    "to-function": "*"
+    "component-to-function": "git://github.com/npmcomponent/component-to-function.git"
   },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
-  },
-  "component": {
-    "scripts": {
-      "group-by/index.js": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/group-by.git"
-  }
+  "license": "MIT"
 }
